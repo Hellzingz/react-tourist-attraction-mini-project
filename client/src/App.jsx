@@ -1,7 +1,9 @@
-import "./App.css";
+import TouristAttraction from "./components/TouristAttraction";
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  return (
+    <TouristAttraction/>
+  )
 }
 
 export default App;
